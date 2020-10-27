@@ -1,0 +1,36 @@
+.Bubble{
+    position: absolute;
+    left: 50%;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    z-index:1;
+}
+
+.One{
+    transform: translate(-50%, 0);
+}
+
+.Two{
+    transform: translate(-50%, 100%);
+}
+
+.Three{
+    transform: translate(-50%, 200%);
+}
+
+.Four{
+    transform: translate(-50%, 300%);
+}
+
+.Black{
+    background-color:black;
+    color:white;
+}
+
+.White{
+    background-color:white;
+}

@@ -1,10 +1,15 @@
 .Divide{
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: auto;
-    background: black;
+    float:left;
     width: 50%;
+    height:100vh;
+    padding-top:5%;
+}
+
+.Black{
+    background-color:black;
+    color:white;
+}
+
+.White{
+    background-color:white;
 }
