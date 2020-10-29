@@ -1,0 +1,25 @@
+.SkillGrid{
+    height:100px;
+    margin: 10px 0px px 0px
+}
+
+.SkillGrid svg {
+    height:60px;
+    width: 60px;
+}
+
+.SkillGrid g { 
+    fill:white;
+}
+
+.SkillGrid path{
+    fill: white;
+}
+
+.SkillGrid g path{
+    fill: white;
+}
+
+.SkillGrid div{
+    margin-bottom: 30px;
+}

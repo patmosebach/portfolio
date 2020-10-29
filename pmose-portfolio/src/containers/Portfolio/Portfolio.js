@@ -1,46 +1,49 @@
 import React, { Component } from 'react';
 import logo from '../../assets/images/portfolio.png';
-import { ReactComponent as TmLogo } from '../../assets/images/ticketmaster.svg';
-import { ReactComponent as IsuLogo } from '../../assets/images/isu.svg'
-import tmLogo from '../../assets/images/ticketmaster.svg';
-import isuLogo from '../../assets/images/iowa-state-grey.png';
+
+import { ReactComponent as LinkedinLogo } from '../../assets/images/linkedin.svg';
+import { ReactComponent as GitHubLogo } from '../../assets/images/github.svg'
+import { ReactComponent as AngelLogo } from '../../assets/images/angel.svg'
+
+import SkillGrid from '../../components/SkillGrid/SkillGrid';
+
+import Intro from '../Intro/Intro';
+
 import Divide from '../../hoc/Divide/Divide';
 import Adj from '../../hoc/Adj/Adj';
 import classes from './Portfolio.module.css';
 import Image from 'react-bootstrap/Image';
 import Bubble from '../../components/Bubble/Bubble';
+import Logo from '../../components/UI/Logo/Logo';
 
 class Portfolio extends Component {
 
 
     render(){
 
-        const intro = 'Patrick Mosebach is a full stack engineer with a passion for making scalable solutions.';
-        const description = 'Proven experience at Ticketmaster working on web applications the quick brown fox jumped over the lazy dog';
-
         return(
             <Adj>
                 <Divide white>
-                    <div className={classes.Intro}>
-                        Patrick Mosebach is a <a>full stack engineer</a> with a passion for making scalable solutions.
-                    </div>
-                    <div className={classes.Description}>
-                        {description}
-                    </div>
-                    <div className={classes.WorkPlaces}>
-                        <a href="https://www.ticketmaster.com/" target="_blank">
-                            <TmLogo className={classes.TmLogo}></TmLogo>
-                        </a>
-                        <div>2018  -  2020</div>
-                        <a href="https://www.iastate.edu/" target="_blank">
-                            <IsuLogo className={classes.IsuLogo}></IsuLogo>
-                        </a>
-                        <div>2013  -  2017</div>
-                    </div>
+                    <Intro/>
                 </Divide>
+
                 <Divide black>
-                    
+                    <div className={classes.Links}>
+                        <Logo link="https://www.linkedin.com/in/patrickmosebach/">
+                            <LinkedinLogo/>
+                        </Logo>
+                        <a href="https://github.com/patmosebach" target="_blank">
+                            <GitHubLogo ></GitHubLogo>
+                        </a>
+                        <a href="https://angel.co/u/patrick-mosebach" target="_blank">
+                            <AngelLogo ></AngelLogo>
+                        </a>
+                    </div>
+                    <div className={classes.Skills}>Skills</div>
+                    <SkillGrid/>
                 </Divide>
+
+
                 <Divide white> I'm on the left?</Divide>
                 <Divide black> I'm on the right</Divide>
 

@@ -6,63 +6,28 @@
     border-radius: 50%;
 }
 
-.Intro{
-    margin-left:8%;
-    margin-top:5%;
-    width: 60%;
-    float: left;
-    z-index: 2;
-    font-size: 3.5vh;
-    position:relative;
-    font-family: 'Merriweather'
-}
-
-.Intro > a {
-    font-weight: 500;
-    color: #009DDF !important;
-}
-
-.Description{
-    color: rgba(35,36,38,0.8);
-    margin-left: 15%;
-    margin-top: 22%;
-    position:relative;
-    font-size: 2vh;
-    width: 55%;
-    z-index: 2;
-
-    font-family: 'Merriweather'
-}
-
-.WorkPlaces{
-    margin:15% 0px 0px 23%;
-    float:left;
-    width:35%;
-    text-align: center;
-}
-
 .BubbleImage{
     padding:12.5vh;
 }
 
-.TmLogo{
-    width:50%;
-    height:100%
+
+.Links{
+    margin-top: 12.50%;
+    margin-left: 40%;
+    margin-right: 35%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.TmLogo:hover > g{
-    fill:rgba(127, 127, 127, 1);
+.Links svg {
+    fill:white;
 }
 
-.IsuLogo{
-    width:50%;
-    margin: 20px 0px 20px 0px;
+.Links svg:hover g {
+    fill: #009DDF;
 }
 
-.IsuLogo > g{
-    fill: rgb(80, 80, 80);
-}
-
-.IsuLogo:hover > g {
-    fill: rgb(0, 0, 0);
+.Skills{
+    margin: 20% 0px 5% 50%;
+    font-size: 20px;
 }
