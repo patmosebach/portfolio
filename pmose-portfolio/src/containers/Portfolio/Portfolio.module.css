@@ -1,5 +1,13 @@
-.Circle{
+.WhiteCircle{
     background: white;
+    width: 25vh;
+    height: 25vh;
+    margin: 12.5vh;
+    border-radius: 50%;
+}
+
+.BlackCircle{
+    background: black;
     width: 25vh;
     height: 25vh;
     margin: 12.5vh;
@@ -11,23 +19,4 @@
 }
 
 
-.Links{
-    margin-top: 12.50%;
-    margin-left: 40%;
-    margin-right: 35%;
-    display: flex;
-    justify-content: space-between;
-}
 
-.Links svg {
-    fill:white;
-}
-
-.Links svg:hover g {
-    fill: #009DDF;
-}
-
-.Skills{
-    margin: 20% 0px 5% 50%;
-    font-size: 20px;
-}

@@ -1,0 +1,16 @@
+.Projects{
+    display:block;
+    padding-right: 14vw;
+}
+
+.ProjectTitle{
+    display:block;
+    margin-left:5%;
+}
+
+.ProjectCarousel{
+    display: absolute;
+    margin-left:5%;
+    height:25%;
+    z-index: 4;
+}

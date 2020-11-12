@@ -1,6 +1,5 @@
 .SkillGrid{
-    height:100px;
-    margin: 10px 0px px 0px
+    margin-top: 10px;
 }
 
 .SkillGrid svg {
@@ -22,4 +21,29 @@
 
 .SkillGrid div{
     margin-bottom: 30px;
+}
+
+
+.Blue:hover path{
+    fill: #009DDF;
+}
+
+.Purple:hover path{
+    fill: #A37CDE;
+}
+
+.Red:hover path{
+    fill: #E52A3A;
+}
+
+.Scarlet:hover path{
+    fill: #DE2C36;
+}
+
+.Orange:hover path{
+    fill: #FF9A00;
+}
+
+.Grey:hover path, .Grey:hover ellipse{
+    fill: lightgrey;
 }

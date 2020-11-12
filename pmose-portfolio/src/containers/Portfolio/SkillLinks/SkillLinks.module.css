@@ -1,0 +1,31 @@
+.SkillLinks{
+    margin-top: 5%;
+}
+
+.Links{
+    padding-top:5%;
+    margin-top: 12.50%;
+    margin-left: 40%;
+    margin-right: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Links svg {
+    fill:white;
+}
+
+.Links svg:hover g {
+    fill: #009DDF;
+}
+
+.Skills{
+    margin: 20% 0px 5% 50%;
+    font-size: 20px;
+}
+
+.SkillDescription{
+    margin-left:5%;
+    display: flex;
+    justify-content: center;
+}
