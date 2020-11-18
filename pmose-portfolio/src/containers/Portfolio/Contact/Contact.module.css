@@ -1,0 +1,38 @@
+.Contact{
+    display:block;
+    padding-right: 14vw;
+    margin-left:5%;
+}
+
+.ContactTitle{
+    display:block;
+    
+}
+
+.ContactList{
+    font-size: 1.05vw;
+    margin-left:5%;
+}
+
+.ContactList li{
+    font-family: 'Open Sans';
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: lightgrey;
+    margin-bottom:5%;
+}
+
+input:focus {
+    border-color: #009DDF !important;
+}
+
+input:hover{
+    border-color: black;
+}
+
+.InputMargin{
+    margin-bottom:5%;
+}

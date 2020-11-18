@@ -19,15 +19,6 @@ const SKILLS = {
     octopus: 'octopus is cool'
 };
 
-    const reactLink = 'https://reactjs.org/';
-    const cSharpLink = 'https://github.com/patmosebach';
-    const angularLink = 'https://angel.co/u/patrick-mosebach';
-    const sqlLink = 'https://github.com/patmosebach';
-    const javaLink = 'https://angel.co/u/patrick-mosebach';
-    const awsLink = 'https://github.com/patmosebach';
-    const gitLink = 'https://angel.co/u/patrick-mosebach';
-    const octopusLink = 'https://github.com/patmosebach';
-
 class SkillLinks extends Component {
 
     state = {

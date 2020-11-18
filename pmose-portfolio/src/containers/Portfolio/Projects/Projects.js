@@ -42,24 +42,6 @@ class Projects extends Component {
 
 
     render(){
-
-        const projects = [
-            {
-                title: 'Mars Rover',
-                image: marsRover,
-                black: true
-            },
-            {
-                title: 'CPU Pipeline',
-                image: cpuArch,
-                black: true
-            },
-            {
-                title: 'Digital Camera Processing',
-                image: camera,
-                black: false
-            }
-        ];
     
         return (
     

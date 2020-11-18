@@ -1,5 +1,4 @@
 import React from 'react';
-import Adj from '../../../hoc/Adj/Adj';
 import classes from './CarouselDescription.module.css';
 
 const carouselDescription = (props) => {

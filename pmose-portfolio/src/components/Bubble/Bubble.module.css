@@ -26,6 +26,14 @@
     transform: translate(-50%, 300%);
 }
 
+.Five{
+    transform: translate(-50%, 400%);
+}
+
+.Six{
+    transform: translate(-50%, 500%);
+}
+
 .Black{
     background-color:black;
     color:white;

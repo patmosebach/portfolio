@@ -18,6 +18,14 @@ const bubble = (props) => {
         case(4):
             style.push(classes.Four);
             break;
+        case(5):
+            style.push(classes.Five);
+            break;
+        case(6):
+            style.push(classes.Six);
+            break;
+        default:
+            break;
     }
 
     if(props.white){

@@ -4,9 +4,9 @@ import classes from './PCarousel.module.css';
 
 const pCarousel = (props) => (
     <Carousel interval={props.interval} onSelect={props.slide} >
-        {props.items.map(item => 
+        {props.items.map((item, index) => 
         {
-            return <Carousel.Item>
+            return <Carousel.Item key={index}>
                 <img
                 className="d-block w-100"
                 src={item.image}
