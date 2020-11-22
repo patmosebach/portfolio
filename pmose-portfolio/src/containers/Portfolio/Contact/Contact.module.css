@@ -1,28 +1,40 @@
 .Contact{
     display:block;
     padding-right: 14vw;
+    margin-top: 5%;
     margin-left:5%;
+
 }
 
 .ContactTitle{
     display:block;
+
     
 }
 
 .ContactList{
     font-size: 1.05vw;
-    margin-left:5%;
 }
 
 .ContactList li{
     font-family: 'Open Sans';
 }
 
+.EmailForm{
+    margin-left:10%;
+}
+
+.EmailForm * {
+    font-family: 'Open Sans';
+}
+
 input {
+    font-size: 1.05vw !important;
     outline: 0;
     border-width: 0 0 2px;
     border-color: lightgrey;
     margin-bottom:5%;
+    width: 90%;
 }
 
 input:focus {
@@ -35,4 +47,27 @@ input:hover{
 
 .InputMargin{
     margin-bottom:5%;
+}
+
+.MessageBody{
+    font-size: 1.05vw;
+    width:90%;
+    margin-bottom:5%;
+    border-width:2px;
+    border-radius:6px;
+    border-color: lightgrey;
+}
+
+textarea:focus{
+    border-color: #009DDF !important;
+    outline:0;
+}
+
+textarea:hover{
+    border-color: black;
+    outline: 0;
+}
+
+Button{
+    background-color: #009DDF;
 }
