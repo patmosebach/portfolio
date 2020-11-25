@@ -1,11 +1,11 @@
 .Intro{
     margin-left:8%;
-    margin-top:10%;
+    margin-top:15%;
     width: 60%;
     float: left;
     z-index: 2;
-    font-size: 3.5vh;
-    position:relative;
+    font-size: 24px;
+    position:block;
     font-family: 'Merriweather'
 }
 
@@ -17,9 +17,9 @@
 .Description{
     color: rgba(35,36,38,0.8);
     margin-left: 15%;
-    margin-top: 22%;
+    margin-top: 5%;
     position:relative;
-    font-size: 2vh;
+    font-size: 16px;
     width: 55%;
     z-index: 2;
 
@@ -31,6 +31,17 @@
     float:left;
     width:35%;
     text-align: center;
+}
+
+@media (min-width: 1750px) {
+
+    .Intro{
+        font-size: 30px;
+    }
+
+    .Description{
+        font-size: 20px;
+    }
 }
 
 

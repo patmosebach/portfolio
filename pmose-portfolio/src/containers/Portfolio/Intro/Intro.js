@@ -8,7 +8,7 @@ import { ReactComponent as IsuLogo } from '../../../assets/images/isu.svg'
 
 const intro = (props) => {
 
-    const description = 'Proven experience at Ticketmaster working on web applications the quick brown fox jumped over the lazy dog';
+    const description = 'Proven experience at Ticketmaster working on web applications. Looking to build upon these experiences with freelance and consulting opportunities and personal projects.';
 
     const tmLink = "https://www.ticketmaster.com/";
     const isuLink = "https://www.iastate.edu/";
