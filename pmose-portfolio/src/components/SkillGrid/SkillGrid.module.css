@@ -19,8 +19,8 @@
     fill: white;
 }
 
-.SkillGrid div{
-    margin-bottom: 30px;
+.SkillGrid div:first-child{
+    margin-bottom: 25px;
 }
 
 

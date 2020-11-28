@@ -9,14 +9,14 @@ import { ReactComponent as GitHubLogo } from '../../../assets/images/github.svg'
 import { ReactComponent as AngelLogo } from '../../../assets/images/angel.svg';
 
 const SKILLS = {
-    react: 'React / React Native',
-    cSharp: 'C# ASP.Net',
-    angular: 'Angular is cool',
-    sql: 'Sql is cool',
-    java: 'java is cool',
-    aws: 'aws is cool',
-    git: 'git is cool',
-    octopus: 'octopus is cool'
+    react: 'React, React Native, Javascript',
+    cSharp: 'C# ASP.Net API and Console Development',
+    angular: 'Angularjs Frontend Development',
+    sql: 'Microsoft SQL Server, MySQL',
+    java: 'Java Application and Console development',
+    aws: 'AWS Deployment and Application Hosting',
+    git: 'git, Agile Based Development in Team Settings',
+    octopus: 'Octopus Autonomous Deployments and CICD'
 };
 
 class SkillLinks extends Component {
