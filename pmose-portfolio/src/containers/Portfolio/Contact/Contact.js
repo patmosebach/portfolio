@@ -46,20 +46,16 @@ class Contact extends Component  {
                 </h1>
     
                 <ul className={classes.ContactList}>
-                    <li>pat.mosebach@gmail.com</li><br/>
-                    <li>Employment Opportunites</li><br/>
-                    <li>Contracts</li><br/>
-                    <li>Freelance gigs</li><br/>
-                    <li>Website updates</li>
-                </ul>
-                <ul className={classes.ContactList}>
-                    <li>Database maintanence</li><br/>  
+                    <li>Web Applications</li><br/>
+                    <li>Mobile Applications</li><br/>
+                    <li>Application Ideas</li><br/>
+                    <li>Freelance Gigs</li><br/>
                 </ul>
                 <form name="contactForm" onSubmit={this.handleSend} className={classes.EmailForm}>
-                    <input name="email" placeholder={'Email'} className={classes.InputMargin}/><br/>
-                    <input name="subject" placeholder={'Subject'} className={classes.InputMargin}/><br/>
+                    <input name="from_name" placeholder={'Name'} className={classes.InputMargin}/><br/>
+                    <input name="from_email" placeholder={'Email'} className={classes.InputMargin}/><br/>
                     <textarea name="message"  placeholder={'Message'} className={classes.MessageBody}/><br/>
-                    <Button type="submit" value="Submit">Send</Button>
+                    <Button type="submit" value="Send">Send</Button>
                 </form>
 
             </div>
