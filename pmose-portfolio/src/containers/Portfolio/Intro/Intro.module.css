@@ -34,18 +34,6 @@
     text-align: center;
 }
 
-@media (min-width: 1750px) {
-
-    .Intro{
-        font-size: 30px;
-    }
-
-    .Description{
-        font-size: 20px;
-    }
-}
-
-
 .TmLogo{
     width:50%;
     height:100%
@@ -66,4 +54,64 @@
 
 .IsuLogo:hover > g {
     fill: rgb(0, 0, 0);
+}
+
+.SelfPicture{
+    display:none;
+}
+
+
+
+/* Max resolution screens */
+@media (min-width: 1750px) {
+
+    .Intro{
+        font-size: 30px;
+    }
+
+    .Description{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:500px){
+    .SelfPicture{
+        display: inline;
+        margin: 10% 0% 0% 30%;
+        width: 40%;
+    }
+
+    .Intro{
+        margin: 5% 5% 0% 5%;
+        width: auto;
+        font-size: 18px;
+    }
+
+    .Description{
+        margin: 5% 15% 0 15%;
+        position:relative;
+        font-size: 10px;
+        width:auto;
+    
+        font-family: 'Merriweather'
+    }
+
+    .WorkPlaces{
+        margin:0% 0px 0px 25%;
+        display:block;
+        width:50%;
+    }
+
+    .TmLogo{
+        margin-top:15%;
+    }
+
+    .IsuLogo{
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+
+    .BottomDate{
+        margin-bottom: 25%;
+    }    
 }

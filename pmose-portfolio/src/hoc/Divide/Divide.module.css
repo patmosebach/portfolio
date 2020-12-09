@@ -12,3 +12,15 @@
 .White{
     background-color:white;
 }
+
+@media (max-width: 500px){
+
+    .Divide{
+        display:inline-block;
+        float:none;
+        width: 100%;
+        height:auto;
+    }
+    
+
+}
